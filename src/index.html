@@ -12,21 +12,27 @@
     </head>
 
     <body>
-        <header class="jumbotron mb-0">
+        <header class="jumbotron mb-0 bg-dark text-white">
             <h1 class="text-center">Todo List</h1>
         </header>
-        <nav class="navbar navbar-dark bg-dark py-3 mb-5 justify-content-around">
+        <nav class="navbar border-top rounded-0 navbar-dark bg-dark py-3 mb-5 justify-content-around">
             <button type="button" class="nav-item nav-link text-light btn btn-secondary" href="#">ALL</button>
             <button type="button" class="nav-item nav-link text-light btn btn-secondary" href="#">ACTIVE</button>
             <button type="button" class="nav-item nav-link text-light btn btn-secondary" href="#">COMPLETED</button>
         </nav>
             <div class="container">
+                
+                <div class="text-center mb-5">
+                    <button type="button" class="btn btn-dark" href="#">+ Add Task</button>                
+                </div>
+
                 <div class="card-columns">
 
                     <div class="card text-white bg-success m-3">
                         <div class="card-header">
                             ACTIVE
-                            <!-- TODO: Checkbox and exit buttons  -->
+                            <input type="checkbox" class="m-2" aria-label="Checkbox for task completion">
+                            <button type="button" class="btn-success float-right" style="border: none;" href="#"">X</button>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Task</h5>
@@ -41,8 +47,9 @@
 
                     <div class="card text-white bg-success m-3">
                         <div class="card-header">
-                            ACTIVE
-                            <!-- TODO: Checkbox and exit buttons  -->
+                                ACTIVE
+                                <input type="checkbox" class="m-2" aria-label="Checkbox for task completion">
+                                <button type="button" class="btn-success float-right" style="border: none;" href="#">X</button>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Task</h5>
@@ -58,7 +65,8 @@
                     <div class="card text-dark bg-light m-3">
                         <div class="card-header">
                             COMPLETED
-                            <!-- TODO: Checkbox and exit buttons  -->
+                            <input type="checkbox" class="m-2" aria-label="Checkbox for task completion" checked>
+                            <button type="button" class="btn-light float-right" style="border: none;" href="#">X</button>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Task</h5>
@@ -73,7 +81,8 @@
                     <div class="card text-white bg-success m-3">
                         <div class="card-header">
                             ACTIVE
-                            <!-- TODO: Checkbox and exit buttons  -->
+                            <input type="checkbox" class="m-2" aria-label="Checkbox for task completion">
+                            <button type="button" class="btn-success float-right" style="border: none;" href="#">X</button>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Task</h5>
@@ -89,7 +98,8 @@
                     <div class="card text-white bg-success m-3">
                         <div class="card-header">
                             ACTIVE
-                            <!-- TODO: Checkbox and exit buttons  -->
+                            <input type="checkbox" class="m-2" aria-label="Checkbox for task completion">
+                            <button type="button" class="btn-success float-right" style="border: none;" href="#">X</button>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Task</h5>
@@ -105,7 +115,8 @@
                     <div class="card text-dark bg-light m-3">
                         <div class="card-header">
                             COMPLETED
-                            <!-- TODO: Checkbox and exit buttons  -->
+                            <input type="checkbox" class="m-2" aria-label="Checkbox for task completion" checked>
+                            <button type="button" class="btn-light float-right" style="border: none;" href="#">X</button>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Task</h5>
